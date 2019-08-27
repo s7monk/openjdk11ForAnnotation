@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="hotspot" targetName="hotspot" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32f1834c-2b69-4531-ab1f-377de1cead6e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1PvInWO32L4VTQWVcLeap7kzmFM" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../build/linux-x86_64-normal-server-slowdebug/jdk/bin/javac" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="java11" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Hello" WORKING_DIR="file://$USER_HOME$/桌面/hello/java" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hotspot" TARGET_NAME="hotspot" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/../../build/linux-x86_64-normal-server-slowdebug/jdk/bin/java">
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_build jvm" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_compile java" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32f1834c-2b69-4531-ab1f-377de1cead6e" name="Default Changelist" comment="" />
+      <created>1566748310393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566748310393</updated>
+      <workItem from="1566748313137" duration="197000" />
+      <workItem from="1566748633109" duration="11576000" />
+      <workItem from="1566760556746" duration="289000" />
+      <workItem from="1566760917564" duration="86000" />
+      <workItem from="1566761024354" duration="176000" />
+      <workItem from="1566761221006" duration="14000" />
+      <workItem from="1566761254248" duration="1271000" />
+      <workItem from="1566794211479" duration="404000" />
+      <workItem from="1566794695252" duration="6099000" />
+      <workItem from="1566800890074" duration="162000" />
+      <workItem from="1566801076545" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/share/prims/jni.cpp</url>
+          <line>458</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/share/classfile/bytecodeAssembler.cpp</url>
+          <line>94</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
