@@ -69,6 +69,7 @@ public class AtomicInteger extends Number implements java.io.Serializable {
      *
      * @param initialValue the initial value
      */
+    //用给定的初始值创建一个新的AtomicInteger
     public AtomicInteger(int initialValue) {
         value = initialValue;
     }
