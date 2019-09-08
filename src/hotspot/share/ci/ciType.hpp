@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_CI_CITYPE_HPP
 #define SHARE_VM_CI_CITYPE_HPP
 
-#include "ci/ciMetadata.hpp"
+#include "../ci/ciMetadata.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciType
 //

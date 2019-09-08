@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_MODREFBARRIERSET_HPP
 #define SHARE_VM_GC_SHARED_MODREFBARRIERSET_HPP
 
-#include "gc/shared/barrierSet.hpp"
-#include "memory/memRegion.hpp"
+#include "../gc/shared/barrierSet.hpp"
+#include "../memory/memRegion.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class Klass;
 

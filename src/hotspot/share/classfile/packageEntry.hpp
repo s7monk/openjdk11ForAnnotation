@@ -25,14 +25,15 @@
 #ifndef SHARE_VM_CLASSFILE_PACKAGEENTRY_HPP
 #define SHARE_VM_CLASSFILE_PACKAGEENTRY_HPP
 
-#include "classfile/moduleEntry.hpp"
-#include "oops/symbol.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/hashtable.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ostream.hpp"
+#include "../classfile/moduleEntry.hpp"
+#include "../oops/symbol.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../utilities/hashtable.hpp"
+#include "../utilities/macros.hpp"
+#include "../utilities/ostream.hpp"
+#include "../precompiled/precompiled.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "../jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 

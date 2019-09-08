@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CI_CICONSTANT_HPP
 #define SHARE_VM_CI_CICONSTANT_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciNullObject.hpp"
-
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciNullObject.hpp"
+#include "../precompiled/precompiled.hpp"
 // ciConstant
 //
 // This class represents a constant value.

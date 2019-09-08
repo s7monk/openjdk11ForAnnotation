@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODE_HPP
 #define SHARE_VM_INTERPRETER_BYTECODE_HPP
 
-#include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
-#include "oops/method.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bytes.hpp"
+#include "../interpreter/bytecodes.hpp"
+#include "../memory/allocation.hpp"
+#include "../oops/method.hpp"
+#include "../utilities/align.hpp"
+#include "../utilities/bytes.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class ciBytecodeStream;
 

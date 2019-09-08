@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CI_CIFLAGS_HPP
 #define SHARE_VM_CI_CIFLAGS_HPP
 
-#include "jvm.h"
-#include "ci/ciClassList.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/ostream.hpp"
+//#include "jvm.h"
 
+#include "../ci/ciClassList.hpp"
+#include "../utilities/accessFlags.hpp"
+#include "../utilities/ostream.hpp"
+#include "../precompiled/precompiled.hpp"
 // ciFlags
 //
 // This class represents klass or method flags.

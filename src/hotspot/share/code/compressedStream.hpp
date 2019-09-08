@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_CODE_COMPRESSEDSTREAM_HPP
 #define SHARE_VM_CODE_COMPRESSEDSTREAM_HPP
 
-#include "memory/allocation.hpp"
+#include "../memory/allocation.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Simple interface for filing out and filing in basic types
 // Used for writing out and reading in debugging information.

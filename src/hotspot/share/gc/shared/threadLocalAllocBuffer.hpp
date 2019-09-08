@@ -25,10 +25,11 @@
 #ifndef SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_HPP
 #define SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_HPP
 
-#include "gc/shared/gcUtil.hpp"
-#include "oops/typeArrayOop.hpp"
-#include "runtime/perfData.hpp"
-#include "runtime/vm_version.hpp"
+#include "../gc/shared/gcUtil.hpp"
+#include "../oops/typeArrayOop.hpp"
+#include "../runtime/perfData.hpp"
+#include "../runtime/vm_version.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class GlobalTLABStats;
 

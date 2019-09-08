@@ -25,16 +25,17 @@
 #ifndef SHARE_VM_CODE_DEPENDENCIES_HPP
 #define SHARE_VM_CODE_DEPENDENCIES_HPP
 
-#include "ci/ciCallSite.hpp"
-#include "ci/ciKlass.hpp"
-#include "ci/ciMethodHandle.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "code/compressedStream.hpp"
-#include "code/nmethod.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/safepointVerifiers.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/hashtable.hpp"
+#include "../ci/ciCallSite.hpp"
+#include "../ci/ciKlass.hpp"
+#include "../ci/ciMethodHandle.hpp"
+#include "../classfile/systemDictionary.hpp"
+#include "../code/compressedStream.hpp"
+#include "../code/nmethod.hpp"
+#include "../memory/resourceArea.hpp"
+#include "../runtime/safepointVerifiers.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../utilities/hashtable.hpp"
+#include "../precompiled/precompiled.hpp"
 
 //** Dependencies represent assertions (approximate invariants) within
 // the runtime system, e.g. class hierarchy changes.  An example is an

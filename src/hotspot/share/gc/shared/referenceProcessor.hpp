@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_HPP
 #define SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_HPP
 
-#include "gc/shared/referenceDiscoverer.hpp"
-#include "gc/shared/referencePolicy.hpp"
-#include "gc/shared/referenceProcessorStats.hpp"
-#include "memory/referenceType.hpp"
-#include "oops/instanceRefKlass.hpp"
+#include "../gc/shared/referenceDiscoverer.hpp"
+#include "../gc/shared/referencePolicy.hpp"
+#include "../gc/shared/referenceProcessorStats.hpp"
+#include "../memory/referenceType.hpp"
+#include "../oops/instanceRefKlass.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class AbstractRefProcTaskExecutor;
 class GCTimer;

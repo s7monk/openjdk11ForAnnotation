@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_CI_CICONSTANTPOOLCACHE_HPP
 #define SHARE_VM_CI_CICONSTANTPOOLCACHE_HPP
 
-#include "memory/resourceArea.hpp"
-#include "utilities/growableArray.hpp"
+#include "../memory/resourceArea.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciConstantPoolCache
 //

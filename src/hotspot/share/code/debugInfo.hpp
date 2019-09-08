@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_CODE_DEBUGINFO_HPP
 #define SHARE_VM_CODE_DEBUGINFO_HPP
 
-#include "code/compressedStream.hpp"
-#include "code/location.hpp"
-#include "code/nmethod.hpp"
-#include "code/oopRecorder.hpp"
-#include "runtime/stackValue.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/growableArray.hpp"
+#include "../code/compressedStream.hpp"
+#include "../code/location.hpp"
+#include "../code/nmethod.hpp"
+#include "../code/oopRecorder.hpp"
+#include "../runtime/stackValue.hpp"
+#include "../runtime/thread.hpp"
+#include "../utilities/growableArray.hpp"
 
 // Classes used for serializing debugging information.
 // These abstractions are introducted to provide symmetric

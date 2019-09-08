@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_INTERPRETER_LINKRESOLVER_HPP
 #define SHARE_VM_INTERPRETER_LINKRESOLVER_HPP
 
-#include "oops/method.hpp"
+#include "../oops/method.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // All the necessary definitions for run-time link resolution.
 

@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CI_CISIGNATURE_HPP
 #define SHARE_VM_CI_CISIGNATURE_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciSymbol.hpp"
-#include "interpreter/bytecodes.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/growableArray.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciSymbol.hpp"
+#include "../interpreter/bytecodes.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciSignature
 //

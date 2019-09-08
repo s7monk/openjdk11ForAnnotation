@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_ASM_CODEBUFFER_HPP
 #define SHARE_VM_ASM_CODEBUFFER_HPP
 
-#include "code/oopRecorder.hpp"
-#include "code/relocInfo.hpp"
-#include "utilities/align.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "../code/oopRecorder.hpp"
+#include "../code/relocInfo.hpp"
+#include "../utilities/align.hpp"
+#include "../utilities/debug.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class CodeStrings;
 class PhaseCFG;

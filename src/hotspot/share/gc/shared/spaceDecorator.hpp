@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_SPACEDECORATOR_HPP
 #define SHARE_VM_GC_SHARED_SPACEDECORATOR_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/shared/space.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "../gc/parallel/mutableSpace.hpp"
+#include "../gc/shared/space.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class SpaceDecorator: public AllStatic {
  public:

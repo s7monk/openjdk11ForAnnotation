@@ -25,14 +25,15 @@
 #ifndef SHARE_VM_MEMORY_OOPFACTORY_HPP
 #define SHARE_VM_MEMORY_OOPFACTORY_HPP
 
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "memory/referenceType.hpp"
-#include "memory/universe.hpp"
-#include "oops/objArrayKlass.hpp"
-#include "oops/oop.hpp"
-#include "oops/typeArrayKlass.hpp"
-#include "utilities/growableArray.hpp"
+#include "../classfile/symbolTable.hpp"
+#include "../classfile/systemDictionary.hpp"
+#include "../memory/referenceType.hpp"
+#include "../memory/universe.hpp"
+#include "../oops/objArrayKlass.hpp"
+#include "../oops/oop.hpp"
+#include "../oops/typeArrayKlass.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // oopFactory is a class used for creating new objects.
 

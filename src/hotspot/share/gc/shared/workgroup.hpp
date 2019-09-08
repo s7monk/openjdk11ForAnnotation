@@ -25,13 +25,14 @@
 #ifndef SHARE_VM_GC_SHARED_WORKGROUP_HPP
 #define SHARE_VM_GC_SHARED_WORKGROUP_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/thread.hpp"
-#include "gc/shared/gcId.hpp"
-#include "logging/log.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "../memory/allocation.hpp"
+#include "../runtime/globals.hpp"
+#include "../runtime/thread.hpp"
+#include "../gc/shared/gcId.hpp"
+#include "../logging/log.hpp"
+#include "../utilities/debug.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Task class hierarchy:
 //   AbstractGangTask

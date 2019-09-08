@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_OOPS_INSTANCEOOP_HPP
 #define SHARE_VM_OOPS_INSTANCEOOP_HPP
 
-#include "oops/oop.hpp"
+#include "../oops/oop.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // An instanceOop is an instance of a Java Class
 // Evaluating "new HashTable()" will create an instanceOop.

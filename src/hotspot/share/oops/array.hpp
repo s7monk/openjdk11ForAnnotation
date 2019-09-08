@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_ARRAY_HPP
 #define SHARE_VM_OOPS_ARRAY_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/metaspace.hpp"
-#include "utilities/align.hpp"
-
+#include "../memory/allocation.hpp"
+#include "../memory/metaspace.hpp"
+#include "../utilities/align.hpp"
+#include "../precompiled/precompiled.hpp"
 // Array for metadata allocation
 
 template <typename T>

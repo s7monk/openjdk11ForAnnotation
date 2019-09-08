@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CINULLOBJECT_HPP
 #define SHARE_VM_CI_CINULLOBJECT_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciObject.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciObject.hpp"
 
 // ciNullObject
 //

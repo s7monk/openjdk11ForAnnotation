@@ -25,10 +25,11 @@
 #ifndef SHARE_VM_CI_CIOBJECT_HPP
 #define SHARE_VM_CI_CIOBJECT_HPP
 
-#include "ci/ciBaseObject.hpp"
-#include "ci/ciClassList.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/jniHandles.hpp"
+#include "../ci/ciBaseObject.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../runtime/handles.hpp"
+#include "../runtime/jniHandles.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciObject
 //

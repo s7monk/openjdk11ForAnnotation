@@ -25,14 +25,15 @@
 #ifndef SHARE_VM_CLASSFILE_SYSTEMDICTIONARY_HPP
 #define SHARE_VM_CLASSFILE_SYSTEMDICTIONARY_HPP
 
-#include "classfile/classLoader.hpp"
-#include "jvmci/systemDictionary_jvmci.hpp"
-#include "oops/objArrayOop.hpp"
-#include "oops/symbol.hpp"
-#include "runtime/java.hpp"
-#include "runtime/reflectionUtils.hpp"
-#include "runtime/signature.hpp"
-#include "utilities/hashtable.hpp"
+#include "../classfile/classLoader.hpp"
+#include "../jvmci/systemDictionary_jvmci.hpp"
+#include "../oops/objArrayOop.hpp"
+#include "../oops/symbol.hpp"
+#include "../runtime/java.hpp"
+#include "../runtime/reflectionUtils.hpp"
+#include "../runtime/signature.hpp"
+#include "../utilities/hashtable.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The dictionary in each ClassLoaderData stores all loaded classes, either
 // initiatied by its class loader or defined by its class loader:

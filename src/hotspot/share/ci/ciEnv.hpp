@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_CI_CIENV_HPP
 #define SHARE_VM_CI_CIENV_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciObjectFactory.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/dependencies.hpp"
-#include "code/exceptionHandlerTable.hpp"
-#include "compiler/oopMap.hpp"
-#include "oops/methodData.hpp"
-#include "runtime/thread.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciObjectFactory.hpp"
+#include "../classfile/systemDictionary.hpp"
+#include "../code/debugInfoRec.hpp"
+#include "../code/dependencies.hpp"
+#include "../code/exceptionHandlerTable.hpp"
+#include "../compiler/oopMap.hpp"
+#include "../oops/methodData.hpp"
+#include "../runtime/thread.hpp"
 
 class CompileTask;
 

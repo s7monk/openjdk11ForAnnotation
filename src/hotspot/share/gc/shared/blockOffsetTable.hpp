@@ -25,13 +25,14 @@
 #ifndef SHARE_VM_GC_SHARED_BLOCKOFFSETTABLE_HPP
 #define SHARE_VM_GC_SHARED_BLOCKOFFSETTABLE_HPP
 
-#include "gc/shared/memset_with_concurrent_readers.hpp"
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
-#include "memory/virtualspace.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "../gc/shared/memset_with_concurrent_readers.hpp"
+#include "../memory/allocation.hpp"
+#include "../memory/memRegion.hpp"
+#include "../memory/virtualspace.hpp"
+#include "../runtime/globals.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The CollectedHeap type requires subtypes to implement a method
 // "block_start".  For some subtypes, notably generational

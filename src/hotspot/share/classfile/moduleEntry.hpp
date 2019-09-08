@@ -26,18 +26,19 @@
 #define SHARE_VM_CLASSFILE_MODULEENTRY_HPP
 
 #include "jni.h"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/vmSymbols.hpp"
-#include "oops/oopHandle.hpp"
-#include "oops/symbol.hpp"
-#include "runtime/jniHandles.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/hashtable.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ostream.hpp"
+#include "../classfile/classLoaderData.hpp"
+#include "../classfile/vmSymbols.hpp"
+#include "../oops/oopHandle.hpp"
+#include "../oops/symbol.hpp"
+#include "../runtime/jniHandles.hpp"
+#include "../runtime/mutexLocker.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../utilities/hashtable.hpp"
+#include "../utilities/macros.hpp"
+#include "../utilities/ostream.hpp"
+#include "../precompiled/precompiled.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "../jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 #define UNNAMED_MODULE "unnamed module"

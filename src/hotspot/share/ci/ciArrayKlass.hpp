@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CIARRAYKLASS_HPP
 #define SHARE_VM_CI_CIARRAYKLASS_HPP
 
-#include "ci/ciKlass.hpp"
-
+#include "../ci/ciKlass.hpp"
+#include "../precompiled/precompiled.hpp"
 // ciArrayKlass
 //
 // This class, and its subclasses represent Klass*s in the

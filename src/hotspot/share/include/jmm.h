@@ -37,7 +37,7 @@
  * 2. There is a change in the contract between VM and Java classes.
  */
 
-#include "jni.h"
+#include "../prims/jni.h"
 
 #ifdef __cplusplus
 extern "C" {

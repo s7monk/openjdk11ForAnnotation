@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_ASM_REGISTER_HPP
 #define SHARE_VM_ASM_REGISTER_HPP
 
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
-
+#include "../utilities/debug.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 // Use AbstractRegister as shortcut
 class AbstractRegisterImpl;
 typedef AbstractRegisterImpl* AbstractRegister;

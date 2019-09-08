@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_OOPS_INSTANCEREFKLASS_HPP
 #define SHARE_VM_OOPS_INSTANCEREFKLASS_HPP
 
-#include "oops/instanceKlass.hpp"
-#include "utilities/macros.hpp"
+#include "../oops/instanceKlass.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class ClassFileParser;
 

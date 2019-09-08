@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_CI_CIARRAY_HPP
 #define SHARE_VM_CI_CIARRAY_HPP
 
-#include "ci/ciArrayKlass.hpp"
-#include "ci/ciConstant.hpp"
-#include "ci/ciObject.hpp"
-#include "oops/arrayOop.hpp"
-#include "oops/objArrayOop.hpp"
-#include "oops/typeArrayOop.hpp"
-
+#include "../ci/ciArrayKlass.hpp"
+#include "../ci/ciConstant.hpp"
+#include "../ci/ciObject.hpp"
+#include "../oops/arrayOop.hpp"
+#include "../oops/objArrayOop.hpp"
+#include "../oops/typeArrayOop.hpp"
+#include "../precompiled/precompiled.hpp"
 // ciArray
 //
 // This class represents an arrayOop in the HotSpot virtual

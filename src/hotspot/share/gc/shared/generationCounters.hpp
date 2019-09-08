@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_GENERATIONCOUNTERS_HPP
 #define SHARE_VM_GC_SHARED_GENERATIONCOUNTERS_HPP
 
-#include "memory/virtualspace.hpp"
-#include "runtime/perfData.hpp"
+#include "../memory/virtualspace.hpp"
+#include "../runtime/perfData.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // A GenerationCounter is a holder class for performance counters
 // that track a generation

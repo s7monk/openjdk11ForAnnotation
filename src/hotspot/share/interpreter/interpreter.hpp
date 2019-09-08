@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_INTERPRETER_INTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_INTERPRETER_HPP
 
-#include "code/stubs.hpp"
-#include "interpreter/cppInterpreter.hpp"
-#include "interpreter/templateInterpreter.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/align.hpp"
+#include "../code/stubs.hpp"
+#include "../interpreter/cppInterpreter.hpp"
+#include "../interpreter/templateInterpreter.hpp"
+#include "../memory/resourceArea.hpp"
+#include "../utilities/align.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // This file contains the platform-independent parts
 // of the interpreter and the interpreter generator.

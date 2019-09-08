@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CI_CIFIELD_HPP
 #define SHARE_VM_CI_CIFIELD_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciConstant.hpp"
-#include "ci/ciFlags.hpp"
-#include "ci/ciInstance.hpp"
-#include "ci/ciUtilities.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciConstant.hpp"
+#include "../ci/ciFlags.hpp"
+#include "../ci/ciInstance.hpp"
+#include "../ci/ciUtilities.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciField
 //

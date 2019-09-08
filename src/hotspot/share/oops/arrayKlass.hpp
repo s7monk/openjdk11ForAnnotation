@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_OOPS_ARRAYKLASS_HPP
 #define SHARE_VM_OOPS_ARRAYKLASS_HPP
 
-#include "memory/universe.hpp"
-#include "oops/klass.hpp"
+#include "../memory/universe.hpp"
+#include "../oops/klass.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class fieldDescriptor;
 class klassVtable;

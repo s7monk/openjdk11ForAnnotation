@@ -25,12 +25,13 @@
 #ifndef SHARE_VM_OOPS_OOP_HPP
 #define SHARE_VM_OOPS_OOP_HPP
 
-#include "memory/iterator.hpp"
-#include "memory/memRegion.hpp"
-#include "oops/access.hpp"
-#include "oops/metadata.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/macros.hpp"
+#include "../memory/iterator.hpp"
+#include "../memory/memRegion.hpp"
+#include "../oops/access.hpp"
+#include "../oops/metadata.hpp"
+#include "../runtime/atomic.hpp"
+#include "../utilities/macros.hpp"
+#include "/opt/jdk/openjdk11/src/hotspot/share/precompiled/precompiled.hpp"
 
 // oopDesc is the top baseclass for objects classes. The {name}Desc classes describe
 // the format of Java objects so the fields can be accessed from C++.
@@ -52,14 +53,17 @@ class CMSIsAliveClosure;
 class PSPromotionManager;
 class ParCompactionManager;
 
+/**
+ * 对象模型的基类
+ */
 class oopDesc {
   friend class VMStructs;
   friend class JVMCIVMStructs;
  private:
-  volatile markOop _mark;
-  union _metadata {
-    Klass*      _klass;
-    narrowKlass _compressed_klass;
+  volatile markOop _mark;  //对象头 Mark Word
+  union _metadata {  //指向源数据
+    Klass*      _klass; //类型指针，jvm通过这个指针确定一个对象是哪一个类的实例
+    narrowKlass _compressed_klass; //对齐填充
   } _metadata;
 
  public:

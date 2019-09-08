@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_PRIMS_JNI_EXPORT_HPP
 #define SHARE_VM_PRIMS_JNI_EXPORT_HPP
 
-#include "jni.h"
-#include "prims/jvmtiExport.hpp"
+#include "../prims/jni.h"
+#include "../prims/jvmtiExport.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class JniExportedInterface {
  public:

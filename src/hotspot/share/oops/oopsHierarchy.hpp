@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_OOPSHIERARCHY_HPP
 #define SHARE_VM_OOPS_OOPSHIERARCHY_HPP
 
-#include "metaprogramming/integralConstant.hpp"
-#include "metaprogramming/primitiveConversions.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "../metaprogramming/integralConstant.hpp"
+#include "../metaprogramming/primitiveConversions.hpp"
+#include "../runtime/globals.hpp"
+#include "../utilities/globalDefinitions.hpp"
 
 // OBJECT hierarchy
 // This hierarchy is a representation hierarchy, i.e. if A is a superclass

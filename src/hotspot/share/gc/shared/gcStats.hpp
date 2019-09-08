@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_GCSTATS_HPP
 #define SHARE_VM_GC_SHARED_GCSTATS_HPP
 
-#include "gc/shared/gcUtil.hpp"
+#include "../gc/shared/gcUtil.hpp"
 
 class GCStats : public CHeapObj<mtGC> {
  protected:

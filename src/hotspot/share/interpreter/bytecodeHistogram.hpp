@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODEHISTOGRAM_HPP
 #define SHARE_VM_INTERPRETER_BYTECODEHISTOGRAM_HPP
 
-#include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
+#include "../interpreter/bytecodes.hpp"
+#include "../memory/allocation.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // BytecodeCounter counts the number of bytecodes executed
 

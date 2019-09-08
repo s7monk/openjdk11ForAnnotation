@@ -25,16 +25,17 @@
 #ifndef SHARE_GC_SHARED_COMMANDLINEFLAGCONSTRAINTSGC_HPP
 #define SHARE_GC_SHARED_COMMANDLINEFLAGCONSTRAINTSGC_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/jvmFlagConstraintsCMS.hpp"
+#include "../gc/cms/jvmFlagConstraintsCMS.hpp"
 #endif
 #if INCLUDE_G1GC
-#include "gc/g1/jvmFlagConstraintsG1.hpp"
+#include "../gc/g1/jvmFlagConstraintsG1.hpp"
 #endif
 #if INCLUDE_PARALLELGC
-#include "gc/parallel/jvmFlagConstraintsParallel.hpp"
+#include "../gc/parallel/jvmFlagConstraintsParallel.hpp"
 #endif
 
 /*

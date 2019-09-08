@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_CODE_NMETHOD_HPP
 #define SHARE_VM_CODE_NMETHOD_HPP
 
-#include "code/compiledMethod.hpp"
+#include "../code/compiledMethod.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class DepChange;
 class DirectiveSet;

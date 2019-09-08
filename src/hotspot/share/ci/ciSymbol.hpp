@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CI_CISYMBOL_HPP
 #define SHARE_VM_CI_CISYMBOL_HPP
 
-#include "ci/ciBaseObject.hpp"
-#include "ci/ciObject.hpp"
-#include "ci/ciObjectFactory.hpp"
-#include "classfile/vmSymbols.hpp"
-#include "oops/symbol.hpp"
+#include "../ci/ciBaseObject.hpp"
+#include "../ci/ciObject.hpp"
+#include "../ci/ciObjectFactory.hpp"
+#include "../classfile/vmSymbols.hpp"
+#include "../oops/symbol.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciSymbol
 //

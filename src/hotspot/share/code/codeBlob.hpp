@@ -25,13 +25,14 @@
 #ifndef SHARE_VM_CODE_CODEBLOB_HPP
 #define SHARE_VM_CODE_CODEBLOB_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "compiler/compilerDefinitions.hpp"
-#include "compiler/oopMap.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "../asm/codeBuffer.hpp"
+#include "../compiler/compilerDefinitions.hpp"
+#include "../compiler/oopMap.hpp"
+#include "../runtime/frame.hpp"
+#include "../runtime/handles.hpp"
+#include "../utilities/align.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // CodeBlob Types
 // Used in the CodeCache to assign CodeBlobs to different CodeHeaps

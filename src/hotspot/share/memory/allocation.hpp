@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_MEMORY_ALLOCATION_HPP
 #define SHARE_VM_MEMORY_ALLOCATION_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "../runtime/globals.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 #include <new>
 

@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_REFERENCEPOLICY_HPP
 #define SHARE_VM_GC_SHARED_REFERENCEPOLICY_HPP
 
-#include "oops/oopsHierarchy.hpp"
+#include "../oops/oopsHierarchy.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // referencePolicy is used to determine when soft reference objects
 // should be cleared.

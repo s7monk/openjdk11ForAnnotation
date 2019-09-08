@@ -25,10 +25,11 @@
 #ifndef SHARE_VM_MEMORY_HEAP_HPP
 #define SHARE_VM_MEMORY_HEAP_HPP
 
-#include "code/codeBlob.hpp"
-#include "memory/allocation.hpp"
-#include "memory/virtualspace.hpp"
-#include "utilities/macros.hpp"
+#include "../code/codeBlob.hpp"
+#include "../memory/allocation.hpp"
+#include "../memory/virtualspace.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Blocks
 

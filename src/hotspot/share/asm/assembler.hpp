@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_ASM_ASSEMBLER_HPP
 #define SHARE_VM_ASM_ASSEMBLER_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "asm/register.hpp"
-#include "code/oopRecorder.hpp"
-#include "code/relocInfo.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/vm_version.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/macros.hpp"
+#include "../asm/codeBuffer.hpp"
+#include "../asm/register.hpp"
+#include "../code/oopRecorder.hpp"
+#include "../code/relocInfo.hpp"
+#include "../memory/allocation.hpp"
+#include "../runtime/vm_version.hpp"
+#include "../utilities/debug.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../utilities/macros.hpp"
 
 // This file contains platform-independent assembler declarations.
 

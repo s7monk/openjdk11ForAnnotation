@@ -27,6 +27,8 @@
 
 // Interface to Forte support.
 
+
+
 class Forte : AllStatic {
  public:
    static void register_stub(const char* name, address start, address end)

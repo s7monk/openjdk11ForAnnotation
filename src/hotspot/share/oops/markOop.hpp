@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_MARKOOP_HPP
 #define SHARE_VM_OOPS_MARKOOP_HPP
 
-#include "oops/oop.hpp"
-
+#include "../oops/oop.hpp"
+#include "/opt/jdk/openjdk11/src/hotspot/share/precompiled/precompiled.hpp"
 // The markOop describes the header of an object.
 //
 // Note that the mark is not a real oop but just a word.
@@ -37,7 +37,7 @@
 //  32 bits:
 //  --------
 //             hash:25 ------------>| age:4    biased_lock:1 lock:2 (normal object)
-//             JavaThread*:23 epoch:2 age:4    biased_lock:1 lock:2 (biased object)
+//             JavaThread*:23 epo ch:2 age:4    biased_lock:1 lock:2 (biased object)
 //             size:32 ------------------------------------------>| (CMS free block)
 //             PromotedObject*:29 ---------->| promo_bits:3 ----->| (CMS promoted object)
 //

@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODES_HPP
 #define SHARE_VM_INTERPRETER_BYTECODES_HPP
 
-#include "memory/allocation.hpp"
+#include "../memory/allocation.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Bytecodes specifies all bytecodes used in the VM and
 // provides utility functions to get bytecode attributes.

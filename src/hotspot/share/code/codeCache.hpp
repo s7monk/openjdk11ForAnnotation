@@ -25,13 +25,14 @@
 #ifndef SHARE_VM_CODE_CODECACHE_HPP
 #define SHARE_VM_CODE_CODECACHE_HPP
 
-#include "code/codeBlob.hpp"
-#include "code/nmethod.hpp"
-#include "memory/allocation.hpp"
-#include "memory/heap.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/oopsHierarchy.hpp"
-#include "runtime/mutexLocker.hpp"
+#include "../code/codeBlob.hpp"
+#include "../code/nmethod.hpp"
+#include "../memory/allocation.hpp"
+#include "../memory/heap.hpp"
+#include "../oops/instanceKlass.hpp"
+#include "../oops/oopsHierarchy.hpp"
+#include "../runtime/mutexLocker.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The CodeCache implements the code cache for various pieces of generated
 // code, e.g., compiled java methods, runtime stubs, transition frames, etc.

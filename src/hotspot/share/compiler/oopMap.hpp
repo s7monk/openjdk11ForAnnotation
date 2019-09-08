@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_COMPILER_OOPMAP_HPP
 #define SHARE_VM_COMPILER_OOPMAP_HPP
 
-#include "code/compressedStream.hpp"
-#include "code/vmreg.hpp"
-#include "memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
-#include "utilities/growableArray.hpp"
+#include "../code/compressedStream.hpp"
+#include "../code/vmreg.hpp"
+#include "../memory/allocation.hpp"
+#include "../oops/oopsHierarchy.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Interface for generating the frame map for compiled code.  A frame map
 // describes for a specific pc whether each register and frame stack slot is:

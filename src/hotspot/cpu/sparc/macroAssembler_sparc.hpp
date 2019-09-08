@@ -25,9 +25,9 @@
 #ifndef CPU_SPARC_VM_MACROASSEMBLER_SPARC_HPP
 #define CPU_SPARC_VM_MACROASSEMBLER_SPARC_HPP
 
-#include "asm/assembler.hpp"
-#include "utilities/macros.hpp"
-
+#include "/opt/jdk/openjdk11/src/hotspot/share/asm/assembler.hpp"
+#include "/opt/jdk/openjdk11/src/hotspot/share/utilities/macros.hpp"
+#include "/opt/jdk/openjdk11/src/hotspot/share/precompiled/precompiled.hpp"
 // <sys/trap.h> promises that the system will not use traps 16-31
 #define ST_RESERVED_FOR_USER_0 0x10
 

@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_OOPS_ARRAYOOP_HPP
 #define SHARE_VM_OOPS_ARRAYOOP_HPP
 
-#include "memory/universe.hpp"
-#include "oops/oop.hpp"
-#include "utilities/align.hpp"
+#include "../memory/universe.hpp"
+#include "../oops/oop.hpp"
+#include "../utilities/align.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // arrayOopDesc is the abstract baseclass for all arrays.  It doesn't
 // declare pure virtual to enforce this because that would allocate a vtbl

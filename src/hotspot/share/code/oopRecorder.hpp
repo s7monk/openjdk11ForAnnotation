@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_CODE_OOPRECORDER_HPP
 #define SHARE_VM_CODE_OOPRECORDER_HPP
 
-#include "memory/universe.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/growableArray.hpp"
+#include "../memory/universe.hpp"
+#include "../runtime/handles.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Recording and retrieval of either oop relocations or metadata in compiled code.
 

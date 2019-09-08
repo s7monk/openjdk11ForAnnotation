@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODETRACER_HPP
 #define SHARE_VM_INTERPRETER_BYTECODETRACER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/ostream.hpp"
+#include "../memory/allocation.hpp"
+#include "../utilities/ostream.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The BytecodeTracer is a helper class used by the interpreter for run-time
 // bytecode tracing. If bytecode tracing is turned on, trace() will be called

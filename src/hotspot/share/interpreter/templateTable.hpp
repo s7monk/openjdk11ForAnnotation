@@ -25,10 +25,11 @@
 #ifndef SHARE_VM_INTERPRETER_TEMPLATETABLE_HPP
 #define SHARE_VM_INTERPRETER_TEMPLATETABLE_HPP
 
-#include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/frame.hpp"
-#include "utilities/macros.hpp"
+#include "../interpreter/bytecodes.hpp"
+#include "../memory/allocation.hpp"
+#include "../runtime/frame.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 #ifndef CC_INTERP
 // All the necessary definitions used for (bytecode) template generation. Instead of

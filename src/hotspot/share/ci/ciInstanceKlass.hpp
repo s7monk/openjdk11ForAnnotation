@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_CI_CIINSTANCEKLASS_HPP
 #define SHARE_VM_CI_CIINSTANCEKLASS_HPP
 
-#include "ci/ciConstantPoolCache.hpp"
-#include "ci/ciFlags.hpp"
-#include "ci/ciKlass.hpp"
-#include "ci/ciSymbol.hpp"
+#include "../ci/ciConstantPoolCache.hpp"
+#include "../ci/ciFlags.hpp"
+#include "../ci/ciKlass.hpp"
+#include "../ci/ciSymbol.hpp"
 
 // ciInstanceKlass
 //

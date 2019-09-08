@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_COMPILER_METHODLIVENESS_HPP
 #define SHARE_VM_COMPILER_METHODLIVENESS_HPP
 
-#include "utilities/bitMap.hpp"
-#include "utilities/growableArray.hpp"
+#include "../utilities/bitMap.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class ciMethod;
 

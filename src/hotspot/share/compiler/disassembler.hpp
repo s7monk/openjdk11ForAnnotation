@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_COMPILER_DISASSEMBLER_HPP
 #define SHARE_VM_COMPILER_DISASSEMBLER_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/macros.hpp"
+#include "../asm/codeBuffer.hpp"
+#include "../runtime/globals.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class decode_env;
 

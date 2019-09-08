@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_CODE_STUBS_HPP
 #define SHARE_VM_CODE_STUBS_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "memory/allocation.hpp"
+#include "../asm/codeBuffer.hpp"
+#include "../memory/allocation.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The classes in this file provide a simple framework for the
 // management of little pieces of machine code - or stubs -

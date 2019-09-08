@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_AGETABLE_HPP
 #define SHARE_VM_GC_SHARED_AGETABLE_HPP
 
-#include "oops/markOop.hpp"
-#include "oops/oop.hpp"
-#include "runtime/perfData.hpp"
+#include "../oops/markOop.hpp"
+#include "../oops/oop.hpp"
+#include "../runtime/perfData.hpp"
 
 /* Copyright (c) 1992, 2018, Oracle and/or its affiliates, and Stanford University.
    See the LICENSE file for license information. */

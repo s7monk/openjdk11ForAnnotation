@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_CLASSFILE_SYMBOLTABLE_HPP
 #define SHARE_VM_CLASSFILE_SYMBOLTABLE_HPP
 
-#include "memory/allocation.hpp"
-#include "oops/symbol.hpp"
-#include "utilities/hashtable.hpp"
+#include "../memory/allocation.hpp"
+#include "../oops/symbol.hpp"
+#include "../utilities/hashtable.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The symbol table holds all Symbol*s and corresponding interned strings.
 // Symbol*s and literal strings should be canonicalized.

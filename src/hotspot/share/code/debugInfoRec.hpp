@@ -25,15 +25,16 @@
 #ifndef SHARE_VM_CODE_DEBUGINFOREC_HPP
 #define SHARE_VM_CODE_DEBUGINFOREC_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciInstanceKlass.hpp"
-#include "ci/ciMethod.hpp"
-#include "code/debugInfo.hpp"
-#include "code/location.hpp"
-#include "code/pcDesc.hpp"
-#include "compiler/oopMap.hpp"
-#include "oops/oop.hpp"
-#include "utilities/growableArray.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciInstanceKlass.hpp"
+#include "../ci/ciMethod.hpp"
+#include "../code/debugInfo.hpp"
+#include "../code/location.hpp"
+#include "../code/pcDesc.hpp"
+#include "../compiler/oopMap.hpp"
+#include "../oops/oop.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 //** The DebugInformationRecorder collects debugging information
 //   for a compiled method.

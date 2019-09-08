@@ -267,7 +267,7 @@ void ObjectMonitor::enter(TRAPS) {
   // and to reduce RTS->RTO cache line upgrades on SPARC and IA32 processors.
   Thread * const Self = THREAD;
 
-  void * cur = Atomic::cmpxchg(Self, &_owner, (void*)NULL);
+  void * cur = Atomic::cmpxchg(Self, &_owner, (void*)NULL);//CAS
   if (cur == NULL) {
     // Either ASSERT _recursions == 0 or explicitly set _recursions = 0.
     assert(_recursions == 0, "invariant");
@@ -275,7 +275,7 @@ void ObjectMonitor::enter(TRAPS) {
     return;
   }
 
-  if (cur == Self) {
+  if (cur == Self) { //重入操作
     // TODO-FIXME: check for integer overflow!  BUGID 6557169.
     _recursions++;
     return;

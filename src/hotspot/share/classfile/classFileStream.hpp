@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSFILESTREAM_HPP
 #define SHARE_VM_CLASSFILE_CLASSFILESTREAM_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/bytes.hpp"
-#include "utilities/exceptions.hpp"
+#include "../memory/allocation.hpp"
+#include "../utilities/bytes.hpp"
+#include "../utilities/exceptions.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Input stream for reading .class file
 //

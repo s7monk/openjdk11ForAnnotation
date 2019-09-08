@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSLOADER_HPP
 #define SHARE_VM_CLASSFILE_CLASSLOADER_HPP
 
-#include "jimage.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/macros.hpp"
+#include "/opt/jdk/openjdk11/src/java.base/share/native/libjimage/jimage.hpp"
+#include "../runtime/handles.hpp"
+#include "../runtime/perfData.hpp"
+#include "../utilities/exceptions.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // The VM class loader.
 #include <sys/stat.h>

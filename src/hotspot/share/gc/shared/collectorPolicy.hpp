@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_GC_SHARED_COLLECTORPOLICY_HPP
 #define SHARE_VM_GC_SHARED_COLLECTORPOLICY_HPP
 
-#include "gc/shared/barrierSet.hpp"
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/generationSpec.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "../gc/shared/barrierSet.hpp"
+#include "../gc/shared/cardTableRS.hpp"
+#include "../gc/shared/generationSpec.hpp"
+#include "../memory/allocation.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // This class (or more correctly, subtypes of this class)
 // are used to define global garbage collector attributes.

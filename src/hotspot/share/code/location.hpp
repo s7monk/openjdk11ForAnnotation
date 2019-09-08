@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_CODE_LOCATION_HPP
 #define SHARE_VM_CODE_LOCATION_HPP
 
-#include "asm/assembler.hpp"
-#include "code/vmreg.hpp"
+#include "../asm/assembler.hpp"
+#include "../code/vmreg.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // A Location describes a concrete machine variable location
 // (such as integer or floating point register or a stack-held

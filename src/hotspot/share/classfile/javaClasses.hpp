@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CLASSFILE_JAVACLASSES_HPP
 #define SHARE_VM_CLASSFILE_JAVACLASSES_HPP
 
-#include "classfile/systemDictionary.hpp"
-#include "jvmtifiles/jvmti.h"
-#include "oops/oop.hpp"
-#include "runtime/os.hpp"
-#include "utilities/utf8.hpp"
+#include "../classfile/systemDictionary.hpp"
+#include "/opt/jdk/openjdk11/build/linux-x86_64-normal-server-slowdebug/hotspot/variant-server/gensrc/jvmtifiles/jvmti.h"
+#include "../oops/oop.hpp"
+#include "../runtime/os.hpp"
+#include "../utilities/utf8.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Interface for manipulating the basic Java classes.
 //

@@ -25,16 +25,17 @@
 #ifndef SHARE_VM_GC_SHARED_SPACE_HPP
 #define SHARE_VM_GC_SHARED_SPACE_HPP
 
-#include "gc/shared/blockOffsetTable.hpp"
-#include "gc/shared/cardTable.hpp"
-#include "gc/shared/workgroup.hpp"
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
-#include "memory/memRegion.hpp"
-#include "oops/markOop.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "../gc/shared/blockOffsetTable.hpp"
+#include "../gc/shared/cardTable.hpp"
+#include "../gc/shared/workgroup.hpp"
+#include "../memory/allocation.hpp"
+#include "../memory/iterator.hpp"
+#include "../memory/memRegion.hpp"
+#include "../oops/markOop.hpp"
+#include "../runtime/mutexLocker.hpp"
+#include "../utilities/align.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // A space is an abstraction for the "storage units" backing
 // up the generation abstraction. It includes specific

@@ -25,23 +25,24 @@
 #ifndef SHARE_VM_OOPS_INSTANCEKLASS_HPP
 #define SHARE_VM_OOPS_INSTANCEKLASS_HPP
 
-#include "classfile/classLoader.hpp"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/moduleEntry.hpp"
-#include "classfile/packageEntry.hpp"
-#include "memory/referenceType.hpp"
-#include "oops/annotations.hpp"
-#include "oops/constMethod.hpp"
-#include "oops/fieldInfo.hpp"
-#include "oops/instanceOop.hpp"
-#include "oops/klassVtable.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/os.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "../classfile/classLoader.hpp"
+#include "../classfile/classLoaderData.hpp"
+#include "../classfile/moduleEntry.hpp"
+#include "../classfile/packageEntry.hpp"
+#include "../memory/referenceType.hpp"
+#include "../oops/annotations.hpp"
+#include "../oops/constMethod.hpp"
+#include "../oops/fieldInfo.hpp"
+#include "../oops/instanceOop.hpp"
+#include "../oops/klassVtable.hpp"
+#include "../runtime/handles.hpp"
+#include "../runtime/os.hpp"
+#include "../utilities/accessFlags.hpp"
+#include "../utilities/align.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrKlassExtension.hpp"
+#include "../jfr/support/jfrKlassExtension.hpp"
 #endif
 
 

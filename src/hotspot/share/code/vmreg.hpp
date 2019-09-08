@@ -25,10 +25,11 @@
 #ifndef SHARE_VM_CODE_VMREG_HPP
 #define SHARE_VM_CODE_VMREG_HPP
 
-#include "asm/register.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ostream.hpp"
+#include "../asm/register.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/macros.hpp"
+#include "../utilities/ostream.hpp"
+#include "../precompiled/precompiled.hpp"
 #ifdef COMPILER2
 #include "opto/adlcVMDeps.hpp"
 #endif

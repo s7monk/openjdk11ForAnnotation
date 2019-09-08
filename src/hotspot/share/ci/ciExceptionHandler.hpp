@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CI_CIEXCEPTIONHANDLER_HPP
 #define SHARE_VM_CI_CIEXCEPTIONHANDLER_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciInstanceKlass.hpp"
-
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciInstanceKlass.hpp"
+#include "../precompiled/precompiled.hpp"
 // ciExceptionHandler
 //
 // This class represents an exception handler for a method.

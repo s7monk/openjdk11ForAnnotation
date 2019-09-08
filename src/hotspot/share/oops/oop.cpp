@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "classfile/altHashing.hpp"
-#include "classfile/javaClasses.inline.hpp"
-#include "memory/resourceArea.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/verifyOopClosure.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/copy.hpp"
+#include "/opt/jdk/openjdk11/src/hotspot/share/precompiled/precompiled.hpp"
+#include "../classfile/altHashing.hpp"
+#include "../classfile/javaClasses.inline.hpp"
+#include "../memory/resourceArea.hpp"
+#include "../oops/access.inline.hpp"
+#include "../oops/oop.inline.hpp"
+#include "../oops/verifyOopClosure.hpp"
+#include "../runtime/handles.inline.hpp"
+#include "../runtime/thread.inline.hpp"
+#include "../utilities/copy.hpp"
 
 bool always_do_update_barrier = false;
 

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_ARENA_HPP
 #define SHARE_VM_ARENA_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
-
+#include "../memory/allocation.hpp"
+#include "../runtime/globals.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../precompiled/precompiled.hpp"
 #include <new>
 
 // The byte alignment to be used by Arena::Amalloc.  See bugid 4169348.

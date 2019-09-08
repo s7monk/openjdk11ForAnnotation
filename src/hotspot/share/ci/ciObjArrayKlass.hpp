@@ -25,7 +25,8 @@
 #ifndef SHARE_VM_CI_CIOBJARRAYKLASS_HPP
 #define SHARE_VM_CI_CIOBJARRAYKLASS_HPP
 
-#include "ci/ciArrayKlass.hpp"
+#include "../ci/ciArrayKlass.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciObjArrayKlass
 //

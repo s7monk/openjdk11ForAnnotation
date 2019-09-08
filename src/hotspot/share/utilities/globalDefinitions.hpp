@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_GLOBALDEFINITIONS_HPP
 #define SHARE_VM_UTILITIES_GLOBALDEFINITIONS_HPP
 
-#include "utilities/compilerWarnings.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "../utilities/compilerWarnings.hpp"
+#include "../utilities/debug.hpp"
+#include "../utilities/macros.hpp"
 
 #include COMPILER_HEADER(utilities/globalDefinitions)
 

@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_MEMORY_ITERATOR_HPP
 #define SHARE_VM_MEMORY_ITERATOR_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "../memory/allocation.hpp"
+#include "../memory/memRegion.hpp"
+#include "../oops/oopsHierarchy.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class CodeBlob;
 class nmethod;

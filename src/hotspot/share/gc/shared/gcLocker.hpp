@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_GCLOCKER_HPP
 #define SHARE_VM_GC_SHARED_GCLOCKER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "../memory/allocation.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class JavaThread;
 

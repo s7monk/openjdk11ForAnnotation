@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_GC_SHARED_GENCOLLECTEDHEAP_HPP
 #define SHARE_VM_GC_SHARED_GENCOLLECTEDHEAP_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/collectorPolicy.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/oopStorageParState.hpp"
-#include "gc/shared/softRefGenPolicy.hpp"
+#include "../gc/shared/collectedHeap.hpp"
+#include "../gc/shared/collectorPolicy.hpp"
+#include "../gc/shared/generation.hpp"
+#include "../gc/shared/oopStorageParState.hpp"
+#include "../gc/shared/softRefGenPolicy.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class AdaptiveSizePolicy;
 class GCPolicyCounters;

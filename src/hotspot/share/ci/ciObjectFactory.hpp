@@ -25,9 +25,10 @@
 #ifndef SHARE_VM_CI_CIOBJECTFACTORY_HPP
 #define SHARE_VM_CI_CIOBJECTFACTORY_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciObject.hpp"
-#include "utilities/growableArray.hpp"
+#include "../ci/ciClassList.hpp"
+#include "../ci/ciObject.hpp"
+#include "../utilities/growableArray.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // ciObjectFactory
 //

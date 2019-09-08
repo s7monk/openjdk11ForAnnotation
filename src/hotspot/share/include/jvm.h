@@ -27,10 +27,8 @@
 #define _JAVASOFT_JVM_H_
 
 #include <sys/stat.h>
-
-#include "jni.h"
-#include "jvm_md.h"
-
+#include "/opt/jdk/openjdk11/src/hotspot/os/posix/include/jvm_md.h"
+#include "../precompiled/precompiled.hpp"
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -62,7 +60,6 @@ extern "C" {
  *    For example, if the VM relies on a new private field in Thread
  *    class.
  */
-
 #define JVM_INTERFACE_VERSION 5
 
 JNIEXPORT jint JNICALL

@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_GC_SHARED_GCUTIL_HPP
 #define SHARE_VM_GC_SHARED_GCUTIL_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/timer.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/ostream.hpp"
+#include "../memory/allocation.hpp"
+#include "../runtime/timer.hpp"
+#include "../utilities/debug.hpp"
+#include "../utilities/globalDefinitions.hpp"
+#include "../utilities/ostream.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // Catch-all file for utility classes
 

@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_CODE_RELOCINFO_HPP
 #define SHARE_VM_CODE_RELOCINFO_HPP
 
-#include "runtime/os.hpp"
-#include "utilities/macros.hpp"
+#include "../runtime/os.hpp"
+#include "../utilities/macros.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class nmethod;
 class CompiledMethod;

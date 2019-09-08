@@ -25,13 +25,14 @@
 #ifndef SHARE_VM_CI_CIMETHOD_HPP
 #define SHARE_VM_CI_CIMETHOD_HPP
 
-#include "ci/ciFlags.hpp"
-#include "ci/ciInstanceKlass.hpp"
-#include "ci/ciObject.hpp"
-#include "ci/ciSignature.hpp"
-#include "compiler/methodLiveness.hpp"
-#include "prims/methodHandles.hpp"
-#include "utilities/bitMap.hpp"
+#include "../ci/ciFlags.hpp"
+#include "../ci/ciInstanceKlass.hpp"
+#include "../ci/ciObject.hpp"
+#include "../ci/ciSignature.hpp"
+#include "../compiler/methodLiveness.hpp"
+#include "../prims/methodHandles.hpp"
+#include "../utilities/bitMap.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class ciMethodBlocks;
 class MethodLiveness;

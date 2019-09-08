@@ -24,12 +24,13 @@
 #ifndef SHARE_VM_LOGGING_LOG_HPP
 #define SHARE_VM_LOGGING_LOG_HPP
 
-#include "logging/logLevel.hpp"
-#include "logging/logPrefix.hpp"
-#include "logging/logTagSet.hpp"
-#include "logging/logTag.hpp"
-#include "runtime/os.hpp"
-#include "utilities/debug.hpp"
+#include "../logging/logLevel.hpp"
+#include "../logging/logPrefix.hpp"
+#include "../logging/logTagSet.hpp"
+#include "../logging/logTag.hpp"
+#include "../runtime/os.hpp"
+#include "../utilities/debug.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class LogMessageBuffer;
 

@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_CLASSFILE_MODULES_HPP
 #define SHARE_VM_CLASSFILE_MODULES_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/handles.hpp"
+#include "../memory/allocation.hpp"
+#include "../runtime/handles.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class ModuleEntryTable;
 class Symbol;

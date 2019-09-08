@@ -25,12 +25,14 @@
 #ifndef SHARE_VM_INTERPRETER_ABSTRACTINTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_ABSTRACTINTERPRETER_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "code/stubs.hpp"
-#include "interpreter/bytecodes.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmThread.hpp"
+#include "../asm/macroAssembler.hpp"
+#include "../code/stubs.hpp"
+#include "../interpreter/bytecodes.hpp"
+#include "../runtime/frame.hpp"
+#include "../runtime/thread.hpp"
+#include "../runtime/vmThread.hpp"
+#include "../precompiled/precompiled.hpp"
+
 
 // This file contains the platform-independent parts
 // of the abstract interpreter and the abstract interpreter generator.

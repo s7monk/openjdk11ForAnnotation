@@ -25,11 +25,12 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSFILEPARSER_HPP
 #define SHARE_VM_CLASSFILE_CLASSFILEPARSER_HPP
 
-#include "memory/referenceType.hpp"
-#include "oops/annotations.hpp"
-#include "oops/constantPool.hpp"
-#include "oops/typeArrayOop.hpp"
-#include "utilities/accessFlags.hpp"
+#include "../memory/referenceType.hpp"
+#include "../oops/annotations.hpp"
+#include "../oops/constantPool.hpp"
+#include "../oops/typeArrayOop.hpp"
+#include "../utilities/accessFlags.hpp"
+#include "../precompiled/precompiled.hpp"
 
 class Annotations;
 template <typename T>

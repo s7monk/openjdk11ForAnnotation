@@ -25,8 +25,9 @@
 #ifndef SHARE_VM_INTERPRETER_TEMPLATEINTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_TEMPLATEINTERPRETER_HPP
 
-#include "interpreter/abstractInterpreter.hpp"
-#include "interpreter/templateTable.hpp"
+#include "../interpreter/abstractInterpreter.hpp"
+#include "../interpreter/templateTable.hpp"
+#include "../precompiled/precompiled.hpp"
 
 // This file contains the platform-independent parts
 // of the template interpreter and the template interpreter generator.
